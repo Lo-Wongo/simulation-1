@@ -1,0 +1,32 @@
+.edit-details {
+    margin-top: 250px;
+    margin-left: 500px;
+}
+
+.input_box {
+    display: flex;
+    flex-direction: column;
+    width: 325px;
+}
+
+.details_input {
+    display: flex;
+    flex-direction: column;
+    width: 325px;
+}
+
+.save_btn {
+    background-color: #3AD886;
+    width: 150px;
+    
+}
+.edit_btn {
+    background-color: gray;
+    width: 150px;
+
+}
+.delete_btn {
+    background-color: #AB2A19;
+    width: 150px;
+    margin-left: 175px;
+}

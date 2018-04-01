@@ -1,0 +1,42 @@
+.shelves {
+    /* background-color: red; */
+    padding: 30px 80px;
+    margin-left: 400px;
+    width: 400px;
+    margin-top: 300px;
+
+}
+  
+  .ind-shelves {
+    background-color: brown;
+    width: 400px;
+    height: 7vh;
+  }
+
+  .shelf_A {
+    background-color: #AB2A19;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .shelf_B {
+    background-color: #AB2A19;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .shelf_C {
+    background-color: #AB2A19;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .shelf_D {
+    background-color: #AB2A19;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+  }
