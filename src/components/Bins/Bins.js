@@ -2,16 +2,18 @@ import React, { Component } from "react";
 import Bin from './Bin';
 import axios from "axios";
 import './Bins.css';
+// import Header from '../../components/Header/Header';
 
 export default class Bins extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       bins: [ ]
     }
   }
 
   componentDidMount() {
+    
     const { id } = this.props.match.params;
     axios.get( `/api/shelf/${id}` ).then( response => {
       this.setState({ bins: response.data });
@@ -19,6 +21,7 @@ export default class Bins extends Component {
   }
 
   render() {
+    console.log(this.props.match.params.id)
     const { id } = this.props.match.params;
     const { bins } = this.state;
     const Bins = bins.map( (bin, i) => (
@@ -30,8 +33,13 @@ export default class Bins extends Component {
     ));
 
     return (
+      <div>
       <div className="bins">
+
         { Bins }
+
+
+      </div>
       </div>
     )
   }
